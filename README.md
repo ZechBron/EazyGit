@@ -16,34 +16,38 @@ How many commands is needed to be able to upload one file in github repo? 6 comm
 
 Now, using this simple program of mine.. You can upload a file in your github repository using 1 command only.
 
+
 ---
 
 
 ## Compatability && Requirements
 
-### Linux (Tested in Ubuntu)
+
++ ### Linux (Tested in Ubuntu)
    
-> sudo apt install git -y
+   > sudo apt install git -y
 
-### Termux - For Android
 
-[Install Termux in Google Play](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dtermux+google+play+link)
++ ### Termux - For Android
 
-Type this Commands:
+   [Install Termux in Google Play](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dtermux+google+play+link)
 
-> apt update
+   Type this Commands:
 
-> apt upgrade
+      > apt update
 
-> apt install git -y
+      > apt upgrade
 
-### Git Bash - For Windows
+      > apt install git -y
 
-Install Git Bash for Windows here:
++ ### Git Bash - For Windows
 
-[Download Link 1](https://gitforwindows.org/)
+   Install Git Bash for Windows here:
 
-[Download Link 2](https://git-scm.com/downloads)
+   [Download Link 1](https://gitforwindows.org/)
+
+   [Download Link 2](https://git-scm.com/downloads)
+
 
 ---
 
@@ -64,33 +68,33 @@ Install Git Bash for Windows here:
 
 ## How to use:
 
-- Setup user
++ Setup user
 
-> eazygit -n github-username -e email-addrs
+   > eazygit -n github-username -e email-addrs
 
-- Upload file with commit message
++ Upload file with commit message
 
-> eazygit -c filename -h commit-message -b github-repo-url
+   > eazygit -c filename -h commit-message -b github-repo-url
 
-- Upload file with default commit
++ Upload file with default commit
 
-> eazygit -c filename -z -b github-repo-url
+   > eazygit -c filename -z -b github-repo-url
 
-- View More Info
++ View More Info
 
-> eazygit -? 
-
-   or
-
-> eazygit --help
-
-- To Update
-
-> eazygit -u
+   > eazygit -? 
 
    or
 
-> eazygit --update
+   > eazygit --help
+
++ To Update
+
+   > eazygit -u
+
+   or
+
+   > eazygit --update
 
 
 ---
@@ -98,11 +102,11 @@ Install Git Bash for Windows here:
 
 ## Sample Run:
 
-- Termux - For Android
++ Termux - For Android
 
 
 
-- Git Bash - For Windows
++ Git Bash - For Windows
 
 
 
