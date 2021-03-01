@@ -2,7 +2,8 @@
 
 # Eazy Git [![EazyGit Version](https://img.shields.io/badge/version-0.9-blue?style=flat-square)](https://github.com/ZechBron/EazyGit)
 
-<!-- Logo Picture -->
+![Eazy Git by Zech Bron](https://github.com/ZechBron/EazyGit/blob/zeCh-EazyGit/Eazy%20Git.JPG)()
+
 
 [![Coded By](https://img.shields.io/badge/Coded%20By-Zech%20Bron-red?style=for-the-badge&logo=github)](https://github.com/ZechBron)
 
