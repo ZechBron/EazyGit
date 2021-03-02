@@ -1,0 +1,59 @@
+#!/bin/bash
+chmod -R +x *
+
+
+echo -e "\033[0;32m    ______                   _____ _ _   "
+echo -e "   |  ____|                 / ____(_) |  "
+echo -e "   | |__   __ _ _____   _  | |  __ _| |_ "
+echo -e "   |  __| / _' |_  / | | | | | |_ | | __| "
+echo -e "   | |___| (_| |/ /| |_| | | |__| | | |_  "
+echo -e "   |______\__,_/___|\__, |  \_____|_|\__| "
+echo -e "                     __/ |               "
+echo -e "                    |___/                \033[0;0m"
+
+echo -e "   ┌────────────────────────────────────────────┐"
+echo -e "   │  \033[0;34mName\033[0;0m      :  \033[0;36mEazy Git\033[0;0m                     │"
+echo -e "   │  \033[0;34mVersion\033[0;0m   :  \033[0;36m0.9\033[0;0m                          │"
+echo -e "   │  \033[0;34mCoded By\033[0;0m  :  \033[0;36mZech Bron\033[0;0m                    │"
+echo -e "   │  \033[0;34mGitHub\033[0;0m    :  \033[0;36mhttps://github.com/ZechBron\033[0;0m  │"
+echo -e "   └────────────────────────────────────────────┘"
+
+test() {
+   eazygit
+   if [ $? = 0 ]; then
+      clear
+      echo -e "\e[32mDone\e[0m"
+   else
+      echo -e "\e[91mUnknown Error\e[0m"
+   fi
+}
+
+echo -e "\e[32mPlease Choose: \e[0m"
+echo -e " 1. Linux\n 2. Termux - Android\n 3. Git Bash - Windows"
+read zCh
+
+# Linux
+if [ $zCh = 1 ]; then
+   sudo cp -R eazygit /bin
+   sudo cp -R eazygit /usr/bin
+   test
+
+# Termux -  For Android
+elif [ $zCh = 2 ]; then
+   cp -R eazygit $PREFIX/bin
+   test
+
+# Git Bash - For Windows
+elif [ $zCh = 3 ]; then
+   cp -R eazygit /bin
+   cp -R eazygit /usr/bin
+   test
+
+else
+   echo -e "\e[91mWrong input.\e[0m"
+fi
+
+
+
+
+
