@@ -109,5 +109,5 @@ Now, using this simple program of mine.. You can upload a file in your github re
 
 + Git Bash - For Windows
 
-
+![](https://github.com/ZechBron/EazyGit/blob/zeCh-EazyGit/2021-03-04-21-33-49.mp4)
 
